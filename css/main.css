@@ -1,0 +1,283 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  margin-left: -18px;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Mobile Container*/
+.mobile_phone {
+  margin-left: -15px;
+  height: 618px;
+  width: 454px;
+  background-image: url(/images/mobile_phone_instagram_back.png);
+  background-size: 454px 618px;
+  position: relative;
+}
+
+.mobile_phone .randomImage {
+  position: absolute;
+  top: 99px;
+  left: 151px;
+}
+
+/* Login Container*/
+.login_page {
+  max-width: 345px;
+  margin-left: -15px;
+}
+
+.logIn_container {
+  width: 350px;
+  height: 360px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.logIn_container .logo_ig {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.formLogIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formLogIn .name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
+  width: 260px;
+  height: 20px;
+  background-color: #fafafa;
+  color: #000000;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  margin-bottom: 6px;
+  padding: 9px 0 7px 8px;
+  border-radius: 3px;
+}
+
+.formLogIn .password {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
+  width: 260px;
+  height: 20px;
+  background-color: #fafafa;
+  color: #000000;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  margin-bottom: 15px;
+  padding: 9px 0 7px 8px;
+  border-radius: 3px;
+}
+
+.formLogIn .logInButton {
+  background-color: #b2dffc;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.formLogIn .logInButton:focus {
+  outline: none;
+}
+
+.formLogIn .barsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.formLogIn .leftBar {
+  height: 1px;
+  width: 107px;
+  background-color: #dbdbdb;
+}
+
+.formLogIn .rightBar {
+  height: 1px;
+  width: 107px;
+  background-color: #dbdbdb;
+}
+
+.formLogIn .orWord {
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: #8e8e8e;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 20px;
+}
+
+.formLogIn .footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.formLogIn .footerContainer .facebookIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.formLogIn .footerContainer a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #385185;
+}
+
+.formLogIn p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin-top: 21px;
+}
+
+.name:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+
+.password:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+
+.signUp_container {
+  text-align: center;
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  padding: 7px 0 7px 0;
+}
+
+.signUp_container p {
+  margin: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.signUp_container .linkSignUp {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signUp_container .linkSignUp:link {
+  color: #0095f6;
+}
+
+.signUp_container .linkSignUp:visited {
+  color: #0095f6;
+}
+
+.signUp_container .linkSignUp:hover {
+  color: #0095f6;
+}
+
+.signUp_container .linkSignUp:active {
+  color: #0095f6;
+}
+
+.getTheApp_container {
+  text-align: center;
+}
+
+.getTheApp_container p {
+  margin: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.stores_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.stores_container .apple {
+  width: 134px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.stores_container .android {
+  width: 134px;
+  height: 40px;
+}
+/*# sourceMappingURL=main.css.map */
