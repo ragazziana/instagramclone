@@ -1,0 +1,29 @@
+@media (min-width:451px) { 
+
+    .login_page{
+        height: 80vh;
+    }
+
+    .logIn_container {
+        background-color: white;
+        width: 350px;
+        height: 380px;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        margin: 40px auto 0;
+    }
+
+    #signUp_cont{
+        align-items: center;
+        background-color: white;
+        width: 350px;
+        height: 63px;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        margin-top: 10px;
+    }
+
+    .footer-language-copyright{
+        word-spacing: 0;
+    }
+}
