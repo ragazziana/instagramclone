@@ -1,4 +1,13 @@
-@media (min-width: 451px) {
+@media (max-width: 500px) {
+  .randomImage {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 875px) {
+  .randomImage {
+    display: none;
+  }
   .login_page {
     height: 80vh;
   }
@@ -24,15 +33,50 @@
   }
 }
 
+@media (min-width: 876px) {
+  .main_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .randomImage {
+    display: show;
+    width: 454px;
+    height: 618px;
+    align-self: baseline;
+    margin-left: -15px;
+  }
+  .login_page {
+    margin-left: -15px;
+  }
+  .logIn_container {
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+  }
+  #signUp_cont {
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 63px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin-top: 10px;
+  }
+  .footer-language-copyright {
+    word-spacing: 0;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;
   background-color: #fafafa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.mobile_phone {
-  display: none;
 }
 
 .login_page {
@@ -197,7 +241,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .signUp_container p {
@@ -229,7 +273,7 @@ body {
 
 .getTheApp_container {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .getTheApp_container p {
@@ -259,7 +303,6 @@ body {
 .footerlinks {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.75rem;
-  word-spacing: 13px;
   margin-top: 68px;
   line-height: 20px;
 }
@@ -270,10 +313,18 @@ body {
   padding-right: 15px;
 }
 
+.footerlinks .footerLinksFirstLine a {
+  margin-right: 17px;
+}
+
 .footerlinks .footerLinksSecondLine {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.footerlinks .footerLinksSecondLine a {
+  margin-right: 12px;
 }
 
 .footerlinks a {
@@ -288,11 +339,17 @@ body {
   color: #8e8e8e;
 }
 
+.footer-language-copyright p {
+  word-spacing: 0;
+}
+
 select {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
   background-color: #fafafa;
   border: 0;
   color: #8e8e8e;
+  cursor: pointer;
 }
 
 select:focus {

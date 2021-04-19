@@ -1,4 +1,16 @@
-@media (min-width:451px) { 
+@media (max-width: 500px) {
+ .randomImage{
+     display: none;
+ }
+}
+
+
+@media (min-width:451px) and (max-width:875px) { 
+
+
+    .randomImage{
+        display: none;
+    }
 
     .login_page{
         height: 80vh;
@@ -11,6 +23,52 @@
         border: 1px solid #dbdbdb;
         border-radius: 1px;
         margin: 40px auto 0;
+    }
+
+    #signUp_cont{
+        align-items: center;
+        background-color: white;
+        width: 350px;
+        height: 63px;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        margin-top: 10px;
+    }
+
+    .footer-language-copyright{
+        word-spacing: 0;
+    }
+}
+
+@media (min-width:876px) { 
+
+
+    .main_container{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .randomImage{
+        display: show;
+        width: 454px;
+        height: 618px;
+        align-self: baseline;
+        margin-left: -15px;
+    }
+
+    .login_page{
+        margin-left: -15px;
+    }
+
+    .logIn_container {
+        background-color: white;
+        width: 350px;
+        height: 380px;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        
     }
 
     #signUp_cont{
